@@ -1,0 +1,29 @@
+validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+html {
+  box-sizing: content-box;
+}
+.list {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.image-item {
+  width: 200px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
