@@ -4,7 +4,5 @@ const refs = {
 }
 refs.input.addEventListener('input', changeFontSize) 
 function changeFontSize(event) {
-    console.log(refs.span.style.fontSize);
     refs.span.style.fontSize = `${event.currentTarget.value}px`
 }
-
